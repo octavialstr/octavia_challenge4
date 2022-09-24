@@ -1,0 +1,198 @@
+.background1 {
+    min-height: 500px;
+
+    background: #F1F3FF;
+}
+.sewa {
+    width: 568px;
+    height: 108px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+   
+    color: #000000;
+}
+.selamat {
+    width: 468px;
+    height: 60px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+}
+.mobil {
+    position: absolute;
+    width: 704px;
+    height: 407px;
+    left: -55px;
+    top: -5px;
+}
+.imgservice {
+    width: 390px;
+    height: 350px;
+}
+.bestcar {
+    width: 468px;
+    height: 72px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+ 
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sewamobil {
+    width: 468px;
+    height: 60px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+   
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.img {
+    margin-right: 20px;
+}
+.ourservice {
+    font-family: 'Helvetica';
+}
+.rectangle{
+
+    max-width: 1168px;
+    min-height: 326px;
+    left: 136px;
+    top: 2078px;
+
+
+    background: #0D28A6;
+    border-radius: 13px;
+}
+.jakarta {
+    color: white;
+}
+.navcolor {
+  background: #F1F3FF;
+}
+/* .testimonial{
+  font-family: 'Helvetica';
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  margin-top: 100px;
+  padding-top: 100px;
+}   
+
+.owl-carousel .item {
+
+  justify-content: center;
+
+}
+
+.testimonial-h1{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.testimonial-p{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.item {
+width: 619px;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 10px;
+  min-height: 270px;
+background: #F1F3FF;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+min-height: 280px;
+}
+
+
+.testimonial-foto{
+  max-width: 80px;
+  height: 80px;
+  margin-top: 100px;
+  margin-left: 1000px;
+}
+
+.bintang{
+  max-width: 16px;
+}
+
+.testi{
+  padding-top: 12%;
+}
+
+.testi-paragraf{
+  width: 80%;
+}
+
+.testimonial-hasil{
+  max-width: 415px;
+min-height: 80px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+text-align: left;
+padding-top: 10px;
+}
+
+.testimonial-name{
+  flex: none;
+font-size: 14px;
+font-family: 'Helvetica';
+font-weight: bold;
+text-align: left;
+max-width: 300px;
+}
+
+.kiri,.kanan{
+  background-color: white;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+  color: #FFF;
+  font-size: 14px;
+  background: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+
+} */
+.navbarcolor {
+  background-color: #F1F3FF;;
+}
+.font {
+  font-family: Helvetica;
+}

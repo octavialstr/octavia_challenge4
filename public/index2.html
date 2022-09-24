@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Binar Rental</title>
+</head>
+<body>
+  
+    <!-- NAVBAR -->
+<header class="background1">
+    <nav class="navbar navbar-expand-lg fixed-top navcolor"> 
+      <div class="container-lg my-1 "> 
+          <a class="navbar-brand logo" href="#">Binar Rental</a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" 
+              data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><span 
+                  class="navbar-toggler-icon"></span></button> 
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" 
+              aria-labelledby="offcanvasWithBothOptionsLabel"> 
+              <div class="offcanvas-header"> 
+                  <h5 class="navbar-judul">BCR</h5> 
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
+              </div> 
+              <div class="offcanvas-body"> 
+                  <ul class="navbar-nav ms-lg-auto mb-2 ms-0"> 
+                      <li class="nav-item pe-4"> 
+                          <a class="nav-link active" aria-current="page" href="#ourService">Our Service</a> 
+                      </li> 
+                      <li class="nav-item pe-4"> 
+                          <a class="nav-link active"" href=" #whyus">Why Us</a> 
+                      </li> 
+                      <li class="nav-item pe-4"> 
+                          <a class="nav-link active"" href=" #testimonial">Testimonial</a> 
+                      </li> 
+                      <li class="nav-item pe-4"> 
+                          <a class="nav-link active"" href=" #faq">FAQ</a> 
+                      </li> 
+                      <li class="nav-item pe-4 my-2 my-lg-0"> 
+                          <a href="#"><button type="button" 
+                                  class="btn btn-success nav-button">Register</button></a> 
+                      </li> 
+                  </ul> 
+              </div> 
+          </div> 
+      </div> 
+  </nav>
+        <br><br><br><br>
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12  mt-5">
+                        <div class=" as ">
+                            <h1 class="jh1 mb-xl-3">Sewa & Rental Mobil Terbaik di Kawasan Tangsel </h1>
+                            <p class="jp pe-4  w-75">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+                                terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24
+                                jam</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 ">
+                        <img src="images/img_car.png" alt="" class=" w-100">
+                    </div>
+                </div>
+            </div>
+      </header>
+      <div class="kotak">
+        <form action=""  style="margin: 20px;">
+            <div class="row d-flex justify-content-lg-between">
+                <div class="col">
+                    <label for="" class="label">Tipe Driver</label>
+                    <select class="form" name="" id="tipedriver">
+                        <option value="">Dengan Sopir</option>
+                        <option value="">Tanpa Sopir</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="" class="label">Tanggal</label>
+                    <input type="date" class="form" id="tanggal">
+                </div>
+                <div class="col">
+                    <label for="" class="label">Waktu Jemput/Ambil</label>
+                    <input type="time" class="form" id="waktu">
+                </div>
+                <div class="col">
+                    <label for="" class="label">Jumlah Penumpang (Optional)</label>
+                    <input type="text" class="form" id="jumlah">
+                </div>
+                <div class="col-1">
+                    <button class="btn btn-success header-button but" id="cari">Cari Mobil</button>
+                    <button class="btn btn-success header-button but" id="clear">Clear</button>
+                </div>
+            </div>  
+        </form>
+    </div>
+    <div id="cars-container" class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 g-3"></div>
+<br><br><br>
+
+<!-- FOOTER  -->
+
+    <div class="container font" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                <p>binarcarrental@gmail.com</p>
+                <p>081-233-334-808</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <b>
+                <p>Our services</p>
+                <p>Why Us</p>
+                <p>Testimonial</p>
+                <p>FAQ</p>
+                </b>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <p>Connect with us</p>
+                <img src="images/icon_facebook.png" alt="">
+                <img src="images/icon_instagram.png" alt="">
+                <img src="images/icon_twitter.png" alt="">
+                <img src="images/icon_mail.png" alt="">
+                <img src="images/icon_twitch.png" alt="">
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <p>Copyright Binar 2022</p>
+                <p>BINAR CAR RENTAL</p>
+            </div>
+        </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="./scripts/binar.js"></script>
+      <script type="text/javascript" src="./scripts/app.example.js"></script>
+      <script type="text/javascript" src="./scripts/car.example.js"></script>
+      <script type="text/javascript" src="./scripts/main.example.js"></script>
+    </body>
+</html>
+  
